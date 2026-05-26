@@ -1,0 +1,95 @@
+2026-05-26 15:09:59 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 22292 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:09:59 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:10:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-26 15:10:02 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@497c354d
+2026-05-26 15:10:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-26 15:10:08 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 8.996 seconds (process running for 9.78)
+2026-05-26 15:10:54 [http-nio-8080-exec-2] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P123, quantity=2
+2026-05-26 15:10:56 [http-nio-8080-exec-2] INFO  c.e.i.s.impl.CartItemServiceImpl - Thêm mới sản phẩm vào giỏ thành công: CartItem(id=1, userId=U01, productId=P123, quantity=2)
+2026-05-26 15:11:43 [http-nio-8080-exec-3] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:11:43 [http-nio-8080-exec-3] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:11:43 [http-nio-8080-exec-3] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:11:43 [http-nio-8080-exec-3] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:12:10 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U02
+2026-05-26 15:12:10 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U02
+2026-05-26 15:13:16 [http-nio-8080-exec-9] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:13:16 [http-nio-8080-exec-9] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:13:16 [http-nio-8080-exec-9] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:13:16 [http-nio-8080-exec-9] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:14:44 [http-nio-8080-exec-10] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy CartItem theo id=1
+2026-05-26 15:14:45 [http-nio-8080-exec-10] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu xóa CartItem id=1
+2026-05-26 15:14:45 [http-nio-8080-exec-10] INFO  c.e.i.s.impl.CartItemServiceImpl - Xóa thành công CartItem id=1
+2026-05-26 15:15:03 [http-nio-8080-exec-1] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P123, quantity=2
+2026-05-26 15:15:03 [http-nio-8080-exec-1] INFO  c.e.i.s.impl.CartItemServiceImpl - Thêm mới sản phẩm vào giỏ thành công: CartItem(id=2, userId=U01, productId=P123, quantity=2)
+2026-05-26 15:16:01 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:16:01 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:16:01 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:16:01 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:16:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-26 15:16:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-26 15:16:58 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 21184 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:16:58 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:17:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-26 15:17:00 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dfa2ea6
+2026-05-26 15:17:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-26 15:17:06 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 8.065 seconds (process running for 8.692)
+2026-05-26 15:17:09 [http-nio-8080-exec-1] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P123, quantity=5
+2026-05-26 15:17:10 [http-nio-8080-exec-1] INFO  c.e.i.s.impl.CartItemServiceImpl - Cập nhật số lượng sản phẩm thành công: CartItem(id=2, userId=U01, productId=P123, quantity=7)
+2026-05-26 15:19:40 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-26 15:19:40 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-26 15:19:40 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 21184 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:19:40 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:19:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-05-26 15:19:41 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@97aeade
+2026-05-26 15:19:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-05-26 15:19:42 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 2.29 seconds (process running for 165.121)
+2026-05-26 15:19:44 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-05-26 15:19:44 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-05-26 15:19:44 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 21184 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:19:44 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:19:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-05-26 15:19:45 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29ba2179
+2026-05-26 15:19:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-05-26 15:19:45 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 1.546 seconds (process running for 168.569)
+2026-05-26 15:21:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-05-26 15:21:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-05-26 15:21:32 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 4792 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:21:32 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:21:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-26 15:21:34 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73ba3d8f
+2026-05-26 15:21:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-26 15:21:38 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 5.884 seconds (process running for 6.385)
+2026-05-26 15:22:03 [http-nio-8080-exec-6] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=1
+2026-05-26 15:22:04 [http-nio-8080-exec-6] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=1
+2026-05-26 15:22:08 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=2
+2026-05-26 15:22:08 [http-nio-8080-exec-7] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=2
+2026-05-26 15:22:35 [http-nio-8080-exec-4] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P123, quantity=2
+2026-05-26 15:22:35 [http-nio-8080-exec-4] INFO  c.e.i.s.impl.CartItemServiceImpl - Cập nhật số lượng sản phẩm thành công: CartItem(id=2, userId=U01, productId=P123, quantity=9)
+2026-05-26 15:24:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-26 15:24:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-26 15:24:37 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 5728 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:24:37 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:24:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-26 15:24:39 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b9f955e
+2026-05-26 15:24:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-26 15:24:43 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 5.734 seconds (process running for 6.234)
+2026-05-26 15:25:02 [http-nio-8080-exec-4] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P123, quantity=2
+2026-05-26 15:25:03 [http-nio-8080-exec-4] INFO  c.e.i.s.impl.CartItemServiceImpl - Cập nhật số lượng sản phẩm thành công: CartItem(id=2, userId=U01, productId=P123, quantity=11)
+2026-05-26 15:25:19 [http-nio-8080-exec-5] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U02, productId=P123, quantity=2
+2026-05-26 15:25:19 [http-nio-8080-exec-5] INFO  c.e.i.s.impl.CartItemServiceImpl - Thêm mới sản phẩm vào giỏ thành công: CartItem(id=3, userId=U02, productId=P123, quantity=2)
+2026-05-26 15:27:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-26 15:27:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-26 15:27:40 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Starting It211Ss10Hw01Application using Java 17.0.18 with PID 28604 (C:\Users\ADMIN\Desktop\IT211-SS10-HW01\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\IT211-SS10-HW01)
+2026-05-26 15:27:40 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 15:27:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-26 15:27:42 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69c05b35
+2026-05-26 15:27:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-26 15:27:43 [restartedMain] INFO  c.e.i.It211Ss10Hw01Application - Started It211Ss10Hw01Application in 3.354 seconds (process running for 3.822)
+2026-05-26 15:28:04 [http-nio-8080-exec-1] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:28:05 [http-nio-8080-exec-1] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 1 sản phẩm trong giỏ cho userId=U01
+2026-05-26 15:28:20 [http-nio-8080-exec-2] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P124, quantity=5
+2026-05-26 15:28:21 [http-nio-8080-exec-2] INFO  c.e.i.s.impl.CartItemServiceImpl - Thêm mới sản phẩm vào giỏ thành công: CartItem(id=4, userId=U01, productId=P124, quantity=5)
+2026-05-26 15:28:27 [http-nio-8080-exec-5] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu thêm sản phẩm vào giỏ: userId=U01, productId=P125, quantity=3
+2026-05-26 15:28:27 [http-nio-8080-exec-5] INFO  c.e.i.s.impl.CartItemServiceImpl - Thêm mới sản phẩm vào giỏ thành công: CartItem(id=5, userId=U01, productId=P125, quantity=3)
+2026-05-26 15:28:40 [http-nio-8080-exec-4] INFO  c.e.i.s.impl.CartItemServiceImpl - Yêu cầu lấy giỏ hàng cho userId=U01
+2026-05-26 15:28:40 [http-nio-8080-exec-4] INFO  c.e.i.s.impl.CartItemServiceImpl - Tìm thấy 3 sản phẩm trong giỏ cho userId=U01
